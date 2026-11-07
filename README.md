@@ -3,7 +3,7 @@
 本仓库包含 Sharpened BFGS 的 MATLAB 实验代码和对应的 Python 版本，
 对比 GD、BFGS、Greedy BFGS 和 Sharpened BFGS。
 
-- [MATLAB 版本](reproduce/README.md)：代码位于 `reproduce/`。
+- [MATLAB 版本](matlab/README.md)：代码位于 `matlab/`。
 - [Python 版本与使用说明](python/README.md)：代码位于 `python/`。
 
 ## Python 快速运行

@@ -1,6 +1,6 @@
 # Sharpened BFGS — Python 版本
 
-由本仓库根目录下 `reproduce/` 中的 MATLAB 实验翻译而来，使用 NumPy/SciPy 的 float64 运算。
+由本仓库根目录下 `matlab/` 中的 MATLAB 实验翻译而来，使用 NumPy/SciPy 的 float64 运算。
 
 ## 运行
 
@@ -35,12 +35,12 @@ NPZ 中 `y_gd/y_bfgs/y_greedy/y_sharpened` 为归一化 Newton decrement 历史�
 
 | MATLAB | Python | 用途 |
 | --- | --- | --- |
-| `reproduce/main_intergral.m` | `reproduce/main_intergral.py` | 四种算法及绘图 |
-| `reproduce/loss_function.m` | `reproduce/loss_function.py` | L2 正则逻辑回归损失 |
-| `reproduce/loss_gradient.m` | `reproduce/loss_gradient.py` | 梯度 |
-| `reproduce/loss_hessian.m` | `reproduce/loss_hessian.py` | Hessian |
-| `reproduce/normalize_row.m` | `reproduce/normalize_row.py` | 按行归一化，保留零行 |
-| `reproduce/computeL/compute.py` | `reproduce/computeL/compute.py` | 从 H_0 计算特征值 |
+| `matlab/main_intergral.m` | `reproduce/main_intergral.py` | 四种算法及绘图 |
+| `matlab/loss_function.m` | `reproduce/loss_function.py` | L2 正则逻辑回归损失 |
+| `matlab/loss_gradient.m` | `reproduce/loss_gradient.py` | 梯度 |
+| `matlab/loss_hessian.m` | `reproduce/loss_hessian.py` | Hessian |
+| `matlab/normalize_row.m` | `reproduce/normalize_row.py` | 按行归一化，保留零行 |
+| `matlab/computeL/compute.py` | `reproduce/computeL/compute.py` | 从 H_0 计算特征值 |
 
 保留原实现的 GD、BFGS、Greedy BFGS、Sharpened BFGS，以及初值
 `w_0 = ones(d)/(d*sqrt(d))`。默认 `mu=1e-5`、`L=0.2`、`M=0`、8000 次迭代，

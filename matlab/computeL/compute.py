@@ -1,5 +1,5 @@
 from scipy.io import loadmat
-data = loadmat('./reproduce/computeL/mushrooms.mat')
+data = loadmat('./matlab/computeL/mushrooms.mat')
 import numpy as np
 print(data.keys())
 A=data['H_0']
